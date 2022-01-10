@@ -14,7 +14,7 @@ simply do below:
 
 ``` shell
 $ cd /usr/src
-$ patch -Np1 < `/path/to/xxx.patch`
+$ patch -Np1 < /path/to/xxx.patch
 ```
 
 Then rebuild your kernel with:
@@ -25,7 +25,7 @@ $ make -C /usr/src installkernel
 $ reboot
 ```
 
-The `N` should be the threads you prefered to build the kernel,
+The `N` of `-j` should be the threads you prefered to build the kernel,
 and then install and reboot to your new kernel.
 
 Also see official handbook for details of wireless.
