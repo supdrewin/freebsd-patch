@@ -5,7 +5,7 @@ Only **14-CURRENT** available because I working with this version FreeBSD
 
 ### Which modified
 
-- Add Device ID for **Tenda U12** *(rtl8812au)*
+- [x] Add Device ID for **Tenda U12** *(rtl8812au)*
 
 ### How to
 
